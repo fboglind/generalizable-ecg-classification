@@ -1,0 +1,32 @@
+# This is just an example..
+# Ignore cache and system files
+__pycache__/
+ __MACOSX/
+*.pyc
+*.pyo
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore dataset and output files
+# data/
+*.csv
+*.xslx
+*.tsv
+*.json
+*.jsonl
+*.log
+*.out
+*.pt  # PyTorch checkpoint files
+
+#Ignore swap and temp files
+*.un~
+*.swp
+*tmp
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+# Ignore these sub-directories
+dir_1/
