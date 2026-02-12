@@ -19,6 +19,7 @@ raw_data/
 *.jsonl
 *.log
 *.out
+*.zip
 *.pt  # PyTorch checkpoint files
 
 #Ignore swap and temp files
