@@ -10,7 +10,8 @@ venv/
 env/
 
 # Ignore dataset and output files
-# data/
+data/
+raw_data/
 *.csv
 *.xslx
 *.tsv
