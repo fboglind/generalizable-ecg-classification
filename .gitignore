@@ -12,15 +12,30 @@ env/
 # Ignore dataset and output files
 data/
 raw_data/
+group_project/raw_data/
+group_project/processed_data/
+group_project/models/
 *.csv
 *.xslx
+*.xlsx
+*.xls
 *.tsv
 *.json
 *.jsonl
 *.log
 *.out
 *.zip
-*.pt  # PyTorch checkpoint files
+
+# Binary data and model artifacts
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+
+# Notebook runtime files
+.ipynb_checkpoints/
+group_project/fredrik_boglind_group_project_2nd.ipynb
 
 #Ignore swap and temp files
 *.un~
